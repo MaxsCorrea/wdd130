@@ -5,33 +5,77 @@
     --paragraph-font: 'Tsukimi Rounded', sans-serif;
 }
 
-h1 {              /*heading*/
+header{
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 100px;
+	height: auto;
+}
+
+
+h1 {
     position: absolute;
+    font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
 }
 
-nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
-    color: rgb(23, 39, 164); 
-    display: inline-block;
-    padding: 20px;
+.h2 {
+    color: black;
 }
 
-article {
+.hero {
+    position: relative;
+}
+
+.hero h1 {
     position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    color: blue; 
+    background-color: bisque;
+    text-align: center;
 }
 
-.hero img {      /*this is the paddle picture, the big background pic*/
-    display: block;
+.hero img { 
     width: 100%;
     height: auto;
 }
 
-article image {
-    width: 200px;
-    height: auto;
-    float: right;
+.hero article {
+    position: absolute;
+    max-width: 80%;
+    padding: 1rem;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    background-color: rgba(247, 237, 237, 0.164);
+    color: aqua;
+    text-align: center;
 }
 
-.section {
+.hero article img {
+    float: right;
     width: 200px;
+
+
+}
+
+footer {
+    width: 40px;
+    height: auto;
+}
+
+footer nav a img {
+    width: 30px;
     height: auto;
 }
