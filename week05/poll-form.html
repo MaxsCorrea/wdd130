@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Maximiliano Correa | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname">
+            </div>
+            <div class="form-item column2">    
+                <label for="email">Email</label>
+                <input type="email" name="useremail">
+            </div>    
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+            <div class="form-item column1">    
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">       
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Brave">Brave</option>
+                    <option value="Other">Other</option>       
+                </select>
+            </div>      
+            <div class="form-item column1">      
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item column3">     
+                <label for="feedback">List the place where you have lived:</label>
+            </div>
+            <div class="form-item cloumn4">    
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </div>
+            </fieldset>
+            <button type="submit">Submint Poll</button>
+        </form>
+        <footer>
+            <p>©2024 | HTML Form - User Poll | Maximiliano Correa</p>
+        </footer>
+    </main>
+</body>
+</html>
