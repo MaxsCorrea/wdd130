@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #dddbdb;
+    background-color: #c2adad;
     margin: 0;
     padding: 20px;
     display: grid;
@@ -37,12 +37,12 @@ label {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 5px;
-    color: #333;
+    color: #6c6969;
 }
 
 button {
     padding: 15px;
-    background-color: #c50404;
+    background-color: #6a64e1;
     color: #fff;
     border: none;
     border-radius: 5px;
