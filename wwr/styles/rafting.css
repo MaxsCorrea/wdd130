@@ -20,14 +20,9 @@ header{
 }
 
 
-h1 {
-    position: absolute;
-    font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
-}
-
-.h2 {
-    color: black;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 .hero {
@@ -71,11 +66,32 @@ h1 {
 }
 
 footer {
-    width: 40px;
-    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-footer nav a img {
-    width: 30px;
-    height: auto;
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
